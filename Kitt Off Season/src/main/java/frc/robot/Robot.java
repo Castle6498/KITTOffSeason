@@ -76,6 +76,7 @@ public void teleopInit() {
   public void teleopPeriodic() {
    // b.arcadeDrive(j.getY(), j.getX());
    driverArcadeDrive();
+   shifterPeriodic();
   }
 
   boolean driveReduction=false;
